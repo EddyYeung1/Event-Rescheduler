@@ -1,0 +1,63 @@
+Test Case 1 (in order): 
+_______________________
+Enter a request: 
+5 a
+6 b
+7 c
+Request invoked: 5 a
+Request invoked: 6 b
+Request invoked: 7 c
+_______________________
+
+
+Test Case 2 (reverse order):
+_______________________
+Enter a request:
+10 a
+5 b
+1 c
+Request invoked: 1 c
+Request invoked: 5 b
+Request invoked: 10 a
+_______________________
+
+
+
+Test Case 3 (same time):
+*have to test yourself to see them invoke at same time
+_______________________
+Enter a request:
+10 a
+10 b
+10 c
+Request invoked: 10 a
+Request invoked: 10 b
+Request invoked: 10 c
+_______________________
+
+
+
+Test Case 4 (mixed order):
+_______________________
+10 c
+5 a
+7 b
+Request invoked: 5 a
+Request invoked: 7 b
+Request invoked: 10 c
+_______________________
+
+
+
+Test Case 5 (negative timespans):
+_______________________
+Enter a request:
+10 a
+10 b
+10 c
+Request invoked: 10 a
+Request invoked: 10 b
+Request invoked: 10 c
+-1 bye
+PROGRAM EXITING
+_______________________
